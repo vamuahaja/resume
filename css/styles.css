@@ -1,15 +1,58 @@
+
+/**************************************** Tag selectors *****************************/
 body {
 
     background-color: #EAF6F6;
 }
 hr { 
     border-color: rgb(128, 128, 128, 0.3);
-    border-width: 5px;
     border-style:  none;
     border-top-style: dotted;
+    border-width: 5px;
     width: 5%;
 
 }
-h2,h3{
-    color:#66BFBF
+h2 {
+    color:#66BFBF;
+}
+
+h3 {
+    color:#66BFBF;
+    margin-bottom: 0.5em;
+}
+
+
+/**************************************** Class selectors *****************************/
+
+.hParagraph {
+
+    margin-bottom: -1em;
+
+}
+
+.pTop {
+
+    margin-top: 0em;
+
+}
+
+.spaceTable {
+
+    border-spacing: .25cm .25cm;
+
+}
+
+.starSize {
+
+    font-size: 12px;
+
+}
+
+
+/**************************************** Id selectors *****************************/
+
+#heading {
+
+    margin-bottom: 0.1em;
+
 }
