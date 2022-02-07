@@ -1,0 +1,209 @@
+/************************************** Tag selectors *********************************/
+
+body {
+
+    /*background-color: blue;*/
+    margin:0px;
+    text-align: center;
+    /*  font-family: "Brush Script MT", cursive;*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin-top: 70px;
+    font-size: 3.125rem; /* 100% = 16px = 1em -> 50%*/
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4375rem;
+    color: #66BFBF
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr { 
+    border-color: rgb(128, 128, 128, 0.3);
+    border-style:  none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 4%;
+    margin: 50px auto;
+}
+p {
+    margin-bottom: 0px;
+    /*padding-bottom: 10px;
+    font-size: 20px;*/
+    text-align: justify;
+    line-height: 2;
+}
+
+
+/*div {
+
+    background-color: #E4F9F5;
+
+}
+*/
+
+/************************************** class selectors *********************************/
+
+.myProf {
+    font-weight:200;
+    color: black;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud-img {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud-img {
+    position: absolute;
+    right: 300px;
+    top: 40px; 
+}
+
+.topParagraph {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 6;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.topnav{
+    font-family: 'Sacramento', cursive; 
+    font-size: 1.3em;
+    position: absolute;
+    right: 292px;
+    top: 110px;
+    padding-top: 14px;
+}
+.topnav a {
+    color: black;
+    padding: 14px 5px;
+}
+.topnav a:hover {
+    background-color: white;
+}
+.skills-row {
+    display: inline-block;
+    width: 70%;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.intro {
+    width: 70%;
+    margin: auto;
+}
+
+.centering {
+    width: 52%;
+    margin: auto;
+}
+
+.gostoLP {
+    font-weight: normal;
+}
+
+/*
+.angularDescription-skill {
+    clear: left;
+}
+
+.dataScienceDescription-Skill {
+    clear: right;
+}
+/*.topnav a.active {
+    background-color: white;
+}*/
+
+/************************************** id selectors *********************************/
+#topContainer {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+#middleContainer {
+    /*background-color: lightseagreen;
+    height: 200px;
+    width: 200px;
+    display: inline-block;*/
+    padding-top: 20px;
+}
+
+#bottomContainer {
+    background-color: #66BFBF;
+    padding: 15px 0 10px ;
+    
+    /*height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    right: 4px;*/
+}
+
+#bottomContainer a {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.3rem;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: hsl(181, 71%, 12%);
+}
+
+#bottomContainer a:hover {
+    color: white;
+}
+
+
+#angularSpring-img {
+    width: 12.5em;
+    height: 12.5em;
+    float: left;
+    margin-right: 30px;
+}
+
+#dataScience-img {
+    width: 12.5em;
+    height: 12.5em;
+    float: right;
+    margin-left: 30px;
+}
+
+
